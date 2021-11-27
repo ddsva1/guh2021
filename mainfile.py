@@ -154,7 +154,22 @@ def decison():
     print("[boo!]")#actual jump scare noise
     print('*DANGER*')
     print('a zombie is approaching you')
-    print('What do you do? press a: Fight or  b: Run')
+    print('What do you do? press a: Fight or  b: Wait or c: Run')
+    dec =""
+    dec1=""
+    while(dec=="b" or dec==""){
+        dec1 = input("What's your decision?:")
+
+        if dec1 =="a":
+            level0()
+        elif dec1 =="c":
+            print("Game Over")
+            gameover()
+        else:
+            dec =""
+    }
+
+    
         
 
 
@@ -171,7 +186,7 @@ def start():
         decison()
         dc = input
         #i just. put all the functions in for ease of testing
-        level0()
+        
         if hearts == 0:
             gameoverbad1()
         else:
