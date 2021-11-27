@@ -85,6 +85,9 @@ def start():
             level2()#to date 1
         elif hearts == 0:
             gameoverbad1()
+        else:
+            print("debugging - ???? error w either level 2 or gameoverbad1")
+
 
     else:
         print('wow')
