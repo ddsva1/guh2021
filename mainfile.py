@@ -148,3 +148,7 @@ def start():
         exit()
 
 start()
+
+x = input("")
+if input == input:
+    exit()
