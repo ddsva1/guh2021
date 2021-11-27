@@ -23,6 +23,7 @@ def gameoverbad1():
     print('youre a murderer')
     #zombie kid bit
     print("game over")
+
 """
 def checkhearts(x):
     if hearts == 0 and x == 1:
@@ -45,9 +46,16 @@ def start():
         print("d: nothing")
         print('choose an object:')
         weapon = ''
-        while weapon != 'gun':
-            weapon = input("what do you do?")
-
+        weapon = input("what do you do? ")
+        if weapon == "a":
+            print("you chose gin!")
+        elif weapon == "b":
+            print()
+        elif weapon == "c":
+            print()
+        elif weapon == "d":
+        else:
+            print()
 
 
         #
