@@ -43,9 +43,8 @@ def gameoverbad3():
     #death by angry cow
     print()
 
-
 def level2():
-    print("Date 1")
+    print("Date 1: Going to Movies")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
     print("choose a movie")
@@ -64,6 +63,14 @@ def level2():
         gameoverbad2()
     else:
         print('get error checking - note')
+
+def level3():
+    print("Date 2: cemetery stroll")
+    print("*The Second Date*")
+    print("awwwww")
+    #Theres A Cow
+
+
 
 def start():
     global hearts
