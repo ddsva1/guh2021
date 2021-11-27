@@ -130,7 +130,7 @@ def level0():
     print("d: bare! hands!")
     print('choose an object:')
     weapon = ''
-    while weapon == "":
+    while weapon == "" or weapon == 'a' or weapon == 'c':
         weapon = input("what do you do? ")
         if weapon == "a":
             print("You chose bat!")
