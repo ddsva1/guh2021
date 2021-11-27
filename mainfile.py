@@ -60,7 +60,7 @@ def start():
         print('a: bat')
         print("b: gun")
         print("c: crossbow")
-        print("d: nothing")
+        print("d: bare! hands!")
         print('choose an object:')
         weapon = ''
         weapon = input("what do you do? ")
@@ -87,15 +87,15 @@ def start():
         elif weapon == "d":
             #wow brave choice etc etc
             print("you're going into this empty handed")
-            hearts = 2
         else:
             print("blah")
 
-        #
-        if hearts == 2:
-            level2()#to date 1
-        elif hearts == 0:
-            gameoverbad1()
+        print("ok time to go up to the zombie")
+        print('a: attack the zombie with your '+weapon)
+        print('b: turn and run')
+        print("c: Make Friends Like A Good Person TM")
+        action = input("what do you do? ")
+
 
     else:
         print('wow')
