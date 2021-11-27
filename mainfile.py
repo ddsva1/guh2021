@@ -55,7 +55,7 @@ def start():
             print("you chose a crossbow")
         elif weapon == "d":
         else:
-            print()
+            print("blah")
 
 
         #
