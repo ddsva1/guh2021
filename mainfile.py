@@ -9,7 +9,6 @@ hearts = 1
 #
 #
 
-
 def level1():
     print("level1")
     print("*the first date*")
