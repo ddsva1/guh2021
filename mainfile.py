@@ -10,7 +10,7 @@ hearts = 1
 # Why u so clever?
 
 
-def level3():
+def level2():
     global hearts
     print("Date 2")
     print("*The Second Date")
@@ -34,7 +34,7 @@ def level3():
         print("You did nothing")
 
 
-def level4():
+def level3():
     print("(You say to yourself) Oh maybe love cures zombie?")
     print("You get closer to the zombie")
     print("Bite!!")
@@ -84,7 +84,7 @@ def gameoverbad3():
     gameover()
 
 
-def level2():
+def level1():
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
