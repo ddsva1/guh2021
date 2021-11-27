@@ -97,17 +97,17 @@ def start():
                 print("You chose bat!")
                 print("You ht the zombie!")
                 print("boink!") #zombie is hit
-                print("Didn't work... zomvie is mildly annoyed")
+                print("Didn't work... zombie is mildly annoyed")
                 hearts = 1
             elif weapon == "b":
                 print("You chose a gun")
                 print("You shoot the zombie!")
                 print("Blood is splattered!")
-                print("Zombie lifeless body falls to the floor")
+                print("Zombie's lifeless body falls to the floor")
                 hearts = 0
             elif weapon == "c":
                 print("You chose a crossbow")
-                print("You are inexprinced!")
+                print("You are inexperienced!")
                 print("You shot yourself in the foot")
                 print("zombie smells your blood, looks hungry")
                 hearts = 1
