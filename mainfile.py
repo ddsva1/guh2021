@@ -9,10 +9,11 @@ hearts = 1
 #
 # Why u so clever?
 
-def level1():
+def level2():
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
+
 
 def gameovergood():
     print("You became a zombie!")
@@ -46,6 +47,8 @@ def start():
     inp = input("press enter key to start game ")
     if inp == "":
         print(":D")
+        print("the background!")
+        #print stuff here - mention food supply issues?
         print('--------------------------------------------')
         #meet zombie n decide
         print("[boo!]")#actual jump scare noise
@@ -79,7 +82,7 @@ def start():
 
         #
         if hearts == 2:
-            level1()
+            level2()#to date 1
         elif hearts == 0:
             gameoverbad1()
 
