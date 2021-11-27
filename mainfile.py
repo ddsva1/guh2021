@@ -8,39 +8,12 @@ hearts = 1
 #pygame?? or tkinter if need be
 #
 # Why u so clever?
-
-def level2():
-    global hearts
-    print("Date 1")
-    print("*The First Date*") #make this text big
-    print("awwwww") #make this text small
-    print("Choose A  Movie")
-    print("a: twilight")
-    print("b: world war z")
-    print("c: Garfield: The Movie")
-    c = input("movie choice: ")
-    if c == "a":
-        print("Zombie loves this movie!")
-        print("shares some of their brainy popcorn")
-        print("zombie and you had a great movie date")
-        hearts = hearts + 1
-
-    elif c == "b":
-        print("zombie thinks you are immature")
-
-        hearts = hearts - 1
-    elif c == "c":
-        print("zombie thinks youre insensitive (yikes)")
-        gameoverbad2()
-    else:
-        print('get error checking - note')
-
-
-
 def gameover():
+    print('--------------------------------------------')
     exit()
 
 def gameovergood():
+    print('--------------------------------------------')
     print("You became a zombie!")
     print("You and Tom the zombie got married")
     print("You and Tom got a house on a fixed inerest mortgage rate!")
@@ -53,6 +26,7 @@ def gameovergood():
     print("the end")
 
 def gameoverbad1():
+    print('--------------------------------------------')
     #play song - really really american one - name??
     print("wow you killed a zombie... his name was Tom")
     print("*child runs in the scene")
@@ -63,16 +37,19 @@ def gameoverbad1():
     gameover()
 
 def gameoverbad2():
+    print('--------------------------------------------')
     print("you've been cancelled on twitter")
     print("A large karen voice")
     print("game over")
 
 def gameoverbad3():
+    print('--------------------------------------------')
     #death by angry cow
-    print()
+    print("death by angry cow i guess!!")
 
 
 def level2():
+    print('--------------------------------------------')
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
@@ -98,6 +75,7 @@ def start():
     hearts = 1
     print("press a, b, c for each option choice")
     inp = input("press enter key to start game ")
+    print('--------------------------------------------')
     if inp == "":
         print(":D")
         print("the background!")
@@ -145,7 +123,7 @@ def start():
     else:
         print('wow')
         print("coward")
-        exit()
+        print('--------------------------------------------')
 
 start()
 
