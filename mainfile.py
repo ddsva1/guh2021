@@ -75,27 +75,7 @@ def gameoverbad3():
     gameover()
 
 
-def level2():
-    global hearts
-    print("Date 1")
-    print("*The First Date*") #make this text big
-    print("awwwww") #make this text small
-    print("choose a movie")
-    print("a: twilight")
-    print("b: world war z")
-    print("c: garfield 3 the movie")
-    c = input("movie choice: ")
-    if c == "a":
-        print("zombie and you had a great movie date")
-        hearts = hearts + 1
-    elif c == "b":
-        print("zombie thinks you are immature")
-        hearts = hearts -1
-    elif c == "c":
-        print("zombie thinks youre insensitive (yikes)")
-        gameoverbad2()
-    else:
-        print('get error checking - note')
+
 
 def level3():
     global hearts
