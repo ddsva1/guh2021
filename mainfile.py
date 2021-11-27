@@ -26,7 +26,7 @@ def level2():
 
     elif c == "b":
         print("zombie thinks you are immature")
-        
+
         hearts = hearts
     elif c == "c":
         print("zombie thinks youre insensitive (yikes)")
@@ -117,7 +117,7 @@ def start():
         print("d: bare! hands!")
         print('choose an object:')
         weapon = ''
-        while weapon == ""
+        while weapon == "":
             weapon = input("what do you do? ")
             if weapon == "a":
                 print("You chose bat!")
