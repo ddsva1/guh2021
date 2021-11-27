@@ -13,7 +13,19 @@ def level2():
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
-    print("Choose a movie")
+    print("choose a movie")
+    print("a: twilight")
+    print("b: world war z")
+    print("c: garfield 3 the movie")
+    c = input("movie choice: ")
+    if c == "a":
+        print()
+    elif c == "b":
+        print()
+    elif c == "c":
+        print()
+    else:
+        print('get error checking - note')
 
 
 def gameovergood():
@@ -82,8 +94,6 @@ def start():
             print("You are inexprinced!")
             print("You shot yourself in the foot")
             print("zombie smells your blood, looks hungry")
-            
-            
         elif weapon == "d":
             #wow brave choice etc etc
             print("you're going into this empty handed")
@@ -103,8 +113,3 @@ def start():
         exit()
 
 start()
-
-
- 
-
-
