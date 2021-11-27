@@ -44,6 +44,7 @@ def checkhearts(x):
 """
 def start():
     global hearts
+    hearts = 1
     print("press a, b, c for each option choice")
     inp = input("press enter key to start game ")
     if inp == "":
@@ -78,13 +79,10 @@ def start():
             hearts = 2
         else:
             print("blah")
-        #
-        if hearts == 2:
-            level2()#to date 1
-        elif hearts == 0:
-            gameoverbad1()
-        else:
-            print("debugging - ???? error w either level 2 or gameoverbad1")
+
+        print("ok time to go up to the zombie")
+
+        action = input("what do you do? ")
 
 
     else:
