@@ -27,7 +27,7 @@ def level2():
 
     elif c == "b":
         print("zombie thinks you are immature")
-        
+
         hearts = hearts - 1
     elif c == "c":
         print("zombie thinks youre insensitive (yikes)")
@@ -120,6 +120,7 @@ def start():
                 print("You ht the zombie!")
                 print("boink!") #zombie is hit
                 print("Didn't work... zomvie is mildly annoyed")
+                hearts = 1
             elif weapon == "b":
                 print("You chose a gun")
                 print("You shoot the zombie!")
@@ -131,9 +132,12 @@ def start():
                 print("You are inexprinced!")
                 print("You shot yourself in the foot")
                 print("zombie smells your blood, looks hungry")
+                hearts = 1
             elif weapon == "d":
                 #wow brave choice etc etc
                 print("you're going into this empty handed")
+                #the zombie approves etc and thinks youre being friendly
+                hearts = 2
             else:
                 print("sorry try again, that wasnt one of the options?")
 
