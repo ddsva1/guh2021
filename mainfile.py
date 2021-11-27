@@ -162,6 +162,7 @@ def decison():
             level0()
         elif dec1 =="c":
             print("Game Over")
+            #write dialog that you are too slow and 
             gameover()
         elif dec1 =="b":
             print("DATING SIM <3")
