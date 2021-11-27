@@ -43,6 +43,7 @@ def start():
         print('a: gin')
         print("b: gun")
         print("c: crossbow")
+        print("d: nothing")
         print('choose an object:')
         weapon = ''
         while weapon != 'gun':
