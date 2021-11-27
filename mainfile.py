@@ -37,6 +37,30 @@ def level2():
 
 
 
+def level3():
+    global hearts
+    print("Date 2")
+    print("*The Second Date")
+    print("You and Zombie is going to cemetery")
+    print("Look!! a cow in a coat. It's holding a gun!!")
+    print("It seems like you have a gun with you. What would you do?")
+    print("a: shoot the cow")
+    print("b: run away")
+    print("c: don't shoot. It can be friendly")
+    c = input("action choice:")
+    if c == "a":
+        hearts = hearts +1
+        print("You and the zombie is having some burgers for dinner")
+    elif c =="b":
+        hearts = hearts -1
+        print("You are shot! But still got away from the nasty cow.")
+    elif c == "c":
+        print("The cow attacks you!")
+        gameoverbad3()
+    else:
+        print("You did nothing")
+
+
 def gameover():
     exit()
 
@@ -74,31 +98,6 @@ def gameoverbad3():
     print("game over")
     gameover()
 
-
-
-
-def level3():
-    global hearts
-    print("Date 2")
-    print("*The Second Date")
-    print("You and Zombie is going to cemetery")
-    print("Look!! a cow in a coat. It's holding a gun!!")
-    print("It seems like you have a gun with you. What would you do?")
-    print("a: shoot the cow")
-    print("b: run away")
-    print("c: don't shoot. It can be friendly")
-    c = input("action choice:")
-    if c == "a":
-        hearts = hearts +1
-        print("You and the zombie is having some burgers for dinner")
-    elif c =="b":
-        hearts = hearts -1
-        print("You are shot! But still got away from the nasty cow.")
-    elif c == "c":
-        print("The cow attacks you!")
-        gameoverbad3()
-    else:
-        print("You did nothing")
 
 
 
