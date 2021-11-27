@@ -15,12 +15,16 @@ def level1():
 
 def gameovergood():
     print("you became a zombie!")
+    print("while the world decayed into ruins,")
+    print("are still going strong")
+    print("well done!")
+    print("humanity lost but you two sure won!")
 
 def gameoverbad1():
     #play song - really really american one - name??
     print("wow you killed a zombie")
     print(":O")
-    print('youre a murderer')
+    print('youre a murderer!')
     #zombie kid bit
     print("game over")
 
