@@ -85,6 +85,7 @@ def gameoverbad3():
 
 
 def level1():
+    global hearts
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
@@ -98,12 +99,12 @@ def level1():
         print("shares some of their brainy popcorn")
         print("zombie and you had a great movie date")
         hearts = hearts + 1
-    elif c == "b":
+    elif c == "c":
         print("zombie thinks you are immature")
         print("zombie want to go over relationship boundries")
         print("zombie and you had an meh movie date")
         hearts = hearts
-    elif c == "c":
+    elif c == "b":
         print("zombie thinks youre insensitive (yikes)")
         print("Oh No! zombie took out their phone and tweeted!")
         print("Zmobie storms out of theatre")
@@ -122,6 +123,7 @@ def level0():
     print("[boo!]")#actual jump scare noise
     print('*DANGER*')
     print('a zombie is approaching you')
+    print("There are weapons on the ground! quick choose!")
     print('a: bat')
     print("b: gun")
     print("c: crossbow")
@@ -134,7 +136,7 @@ def level0():
             print("You chose bat!")
             print("You ht the zombie!")
             print("boink!") #zombie is hit
-            print("Didn't work... zomvie is mildly annoyed")
+            print("Didn't work... zombie is mildly annoyed")
         elif weapon == "b":
             print("You chose a gun")
             print("You shoot the zombie!")
@@ -148,6 +150,7 @@ def level0():
             print("zombie smells your blood, looks hungry")
         elif weapon == "d":
             #wow brave choice etc etc
+            #write a awkard hug
             print("you're going into this empty handed")
         else:
             print("sorry try again, that wasnt one of the options?")
