@@ -23,8 +23,10 @@ def level2():
         print("shares some of their brainy popcorn")
         print("zombie and you had a great movie date")
         hearts = hearts + 1
+
     elif c == "b":
         print("zombie thinks you are immature")
+        
         hearts = hearts
     elif c == "c":
         print("zombie thinks youre insensitive (yikes)")
