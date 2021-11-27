@@ -81,6 +81,7 @@ def gameoverbad2():
 def gameoverbad3():
     #death by angry cow
     print()
+    gameover()
 
 
 def level2():
