@@ -64,22 +64,31 @@ def start():
 
         weapon = input("what do you do? ")
         if weapon == "a":
-            print("you chose bat!")
-            #print stuff here
+            print("You chose bat!")
+            print("You ht the zombie!")
+            print("boink!") #zombie is hit
+            print("Didn't work... zomvie is mildly annoyed")
+
         elif weapon == "b":
-            print("you chose a gun")
-            #print stuff here
+            print("You chose a gun")
+            print("You shoot the zombie!")
+            print("Blood is splattered!")
+            print("Zombie lifeless body falls to the floor")
+
             hearts = 0
         elif weapon == "c":
-            print("you chose a crossbow")
-            #something something shoot foot was mentioned?
+            print("You chose a crossbow")
+            print("You are inexprinced!")
+            print("You shot yourself in the foot")
+            print("zombie smells your blood, looks hungry")
+            
+            
         elif weapon == "d":
             #wow brave choice etc etc
             print("you're going into this empty handed")
             hearts = 2
         else:
             print("blah")
-
 
         #
         if hearts == 2:
@@ -93,3 +102,8 @@ def start():
         exit()
 
 start()
+
+
+ 
+
+
