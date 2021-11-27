@@ -43,6 +43,7 @@ def gameoverbad3():
     #death by angry cow
     print()
 
+
 def level2():
     print("Date 1: Going to Movies")
     print("*The First Date*") #make this text big
@@ -92,36 +93,29 @@ def start():
         print("d: bare! hands!")
         print('choose an object:')
         weapon = ''
-        weapon = input("what do you do? ")
-        if weapon == "a":
-            print("You chose bat!")
-            print("You ht the zombie!")
-            print("boink!") #zombie is hit
-            print("Didn't work... zomvie is mildly annoyed")
-
-        elif weapon == "b":
-            print("You chose a gun")
-            print("You shoot the zombie!")
-            print("Blood is splattered!")
-            print("Zombie lifeless body falls to the floor")
-
-            hearts = 0
-        elif weapon == "c":
-            print("You chose a crossbow")
-            print("You are inexprinced!")
-            print("You shot yourself in the foot")
-            print("zombie smells your blood, looks hungry")
-        elif weapon == "d":
-            #wow brave choice etc etc
-            print("you're going into this empty handed")
-        else:
-            print("blah")
-
-        print("ok time to go up to the zombie")
-        print('a: attack the zombie with your '+weapon)
-        print('b: turn and run')
-        print("c: Make Friends Like A Good Person TM")
-        action = input("what do you do? ")
+        while weapon == ""
+            weapon = input("what do you do? ")
+            if weapon == "a":
+                print("You chose bat!")
+                print("You ht the zombie!")
+                print("boink!") #zombie is hit
+                print("Didn't work... zomvie is mildly annoyed")
+            elif weapon == "b":
+                print("You chose a gun")
+                print("You shoot the zombie!")
+                print("Blood is splattered!")
+                print("Zombie lifeless body falls to the floor")
+                hearts = 0
+            elif weapon == "c":
+                print("You chose a crossbow")
+                print("You are inexprinced!")
+                print("You shot yourself in the foot")
+                print("zombie smells your blood, looks hungry")
+            elif weapon == "d":
+                #wow brave choice etc etc
+                print("you're going into this empty handed")
+            else:
+                print("sorry try again, that wasnt one of the options?")
 
 
     else:
