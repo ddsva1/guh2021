@@ -43,6 +43,7 @@ def checkhearts(x):
         print("game over")
 """
 def start():
+    global hearts
     print("press a, b, c for each option choice")
     inp = input("press enter key to start game ")
     if inp == "":
@@ -60,7 +61,6 @@ def start():
         print("d: nothing")
         print('choose an object:')
         weapon = ''
-
         weapon = input("what do you do? ")
         if weapon == "a":
             print("you chose bat!")
@@ -78,8 +78,6 @@ def start():
             hearts = 2
         else:
             print("blah")
-
-
         #
         if hearts == 2:
             level2()#to date 1
