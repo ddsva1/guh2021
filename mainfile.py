@@ -61,6 +61,19 @@ def level3():
         print("You did nothing")
 
 
+def level4():
+    print("(You say to yourself) Oh maybe love cures zombie?")
+    print("You get closer to the zombie")
+    print("Bite!!")
+    print("Oh nvm zombie bit you..")
+    global hearts
+    if hearts <=0:
+        gameoverbad4()
+    else:
+        gameovergood()
+
+
+
 def gameover():
     exit()
 
@@ -98,6 +111,12 @@ def gameoverbad3():
     print("game over")
     gameover()
 
+def gameoverbad4():
+    #No heart is left
+    print("print you are eaten alive!!")
+    print("At least you are tasty")
+    gameover()
+    
 def level0():
     print("[boo!]")#actual jump scare noise
     print('*DANGER*')
