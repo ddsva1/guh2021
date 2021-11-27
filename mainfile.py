@@ -10,15 +10,22 @@ hearts = 1
 # Why u so clever?
 
 def level1():
-    print("level1")
-    print("*the first date*")
+    print("Date 1")
+    print("*The First Date*") #make this text big
+    print("awwwww") #make this text small 
 
 def gameovergood():
-    print("you became a zombie!")
+    print("You became a zombie!")
+    print("You and Tom the zombie got married")
+    print("You and Tom got a house on a fixed inerest mortgage rate!")
+    print("You've had a child! how is that possible!?")
+    print("Both you and tom have lived happily ever after")
+    print("the end")
 
 def gameoverbad1():
     #play song - really really american one - name??
-    print("wow you killed a zombie")
+    print("wow you killed a zombie... his name was Tom")
+    print("*child runs in the scene")
     print(":O")
     print('youre a murderer')
     #zombie kid bit
