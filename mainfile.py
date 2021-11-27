@@ -38,7 +38,7 @@ def level3():
     print("(You say to yourself) Oh maybe love cures zombie?")
     print("You get closer to the zombie")
     print("Bite!!")
-    print("Oh nvm zombie bit you..")
+    print("Oh nevermind zombie bit you..")
     global hearts
     if hearts <=0:
         gameoverbad4()
