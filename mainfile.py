@@ -40,7 +40,7 @@ def start():
         print("[boo!]")#actual jump scare noise
         print('*DANGER*')
         print('a zombie is approaching you')
-        print('a: gin')
+        print('a: bat')
         print("b: gun")
         print("c: crossbow")
         print("d: nothing")
@@ -48,11 +48,11 @@ def start():
         weapon = ''
         weapon = input("what do you do? ")
         if weapon == "a":
-            print("you chose gin!")
+            print("you chose bat!")
         elif weapon == "b":
-            print()
+            print("you chose a gun")
         elif weapon == "c":
-            print()
+            print("you chose a crossbow")
         elif weapon == "d":
         else:
             print()
