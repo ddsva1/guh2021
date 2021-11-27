@@ -194,8 +194,6 @@ def start():
         level1()
         level2()
         level3()
-
-
     else:
         print('wow')
         print("coward")
