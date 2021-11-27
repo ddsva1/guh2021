@@ -13,13 +13,16 @@ def level2():
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
-    print("choose a movie")
+    print("Choose A  Movie")
     print("a: twilight")
     print("b: world war z")
-    print("c: garfield 3 the movie")
+    print("c: Garfield: The Movie")
     c = input("movie choice: ")
     if c == "a":
-        print()
+        print("Zombie loves this movie!")
+        print("shares some of their brainy popcorn")
+        print("You both have a wonderful time")
+
     elif c == "b":
         print()
     elif c == "c":
