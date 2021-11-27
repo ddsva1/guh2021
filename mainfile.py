@@ -58,6 +58,9 @@ def gameoverbad2():
     print("you've been cancelled on twitter")
     print("A large karen voice")
 
+def gameoverbad3():
+    #death by angry cow
+    print()
 
 """
 def checkhearts(x):
