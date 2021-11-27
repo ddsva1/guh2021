@@ -9,44 +9,6 @@ hearts = 1
 #
 # Why u so clever?
 
-
-def level2():
-    global hearts
-    print("Date 2")
-    print("*The Second Date")
-    print("You and Zombie is going to cemetery")
-    print("Look!! a cow in a coat. It's holding a gun!!")
-    print("It seems like you have a gun with you. What would you do?")
-    print("a: shoot the cow")
-    print("b: run away")
-    print("c: don't shoot. It can be friendly")
-    c = input("action choice:")
-    if c == "a":
-        hearts = hearts +1
-        print("You and the zombie is having some burgers for dinner")
-    elif c =="b":
-        hearts = hearts -1
-        print("You are shot! But still got away from the nasty cow.")
-    elif c == "c":
-        print("The cow attacks you!")
-        gameoverbad3()
-    else:
-        print("You did nothing")
-
-
-def level3():
-    print("(You say to yourself) Oh maybe love cures zombie?")
-    print("You get closer to the zombie")
-    print("Bite!!")
-    print("Oh nevermind zombie bit you..")
-    global hearts
-    if hearts <=0:
-        gameoverbad4()
-    else:
-        gameovergood()
-
-
-
 def gameover():
     exit()
 
@@ -83,8 +45,48 @@ def gameoverbad3():
     print("game over")
     gameover()
 
+def gameoverbad4():
+    #No heart is left
+    print("print you are eaten alive!!")
+    print("At least you are tasty")
+    gameover()
+
+def level3():
+    print("(You say to yourself) Oh maybe love cures zombie?")
+    print("You get closer to the zombie")
+    print("Bite!!")
+    print("Oh nevermind zombie bit you..")
+    global hearts
+    if hearts <2:
+        gameoverbad4()
+    else:
+        gameovergood()
+
+def level2():
+    global hearts
+    print("Date 2")
+    print("*The Second Date")
+    print("You and Zombie is going to cemetery")
+    print("Look!! a cow in a coat. It's holding a gun!!")
+    print("It seems like you have a gun with you. What would you do?")
+    print("a: shoot the cow")
+    print("b: run away")
+    print("c: don't shoot. It can be friendly")
+    c = input("action choice:")
+    if c == "a":
+        hearts += 1
+        print("You and the zombie is having some burgers for dinner")
+    elif c =="b":
+        hearts -= 1
+        print("You are shot! But still got away from the nasty cow.")
+    elif c == "c":
+        print("The cow attacks you!")
+        gameoverbad3()
+    else:
+        print("You did nothing")
 
 def level1():
+
     global hearts
     print("Date 1")
     print("*The First Date*") #make this text big
@@ -103,7 +105,7 @@ def level1():
         print("zombie thinks you are immature")
         print("zombie want to go over relationship boundries")
         print("zombie and you had an meh movie date")
-        hearts = hearts
+        hearts -= 1
     elif c == "b":
         print("zombie thinks youre insensitive (yikes)")
         print("Oh No! zombie took out their phone and tweeted!")
@@ -113,17 +115,8 @@ def level1():
     else:
         print('get error checking - note')
 
-def gameoverbad4():
-    #No heart is left
-    print("print you are eaten alive!!")
-    print("At least you are tasty")
-    gameover()
-
 def level0():
     global hearts
-    print("[boo!]")#actual jump scare noise
-    print('*DANGER*')
-    print('a zombie is approaching you')
     print("There are weapons on the ground! quick choose!")
     print('a: bat')
     print("b: gun")
@@ -153,15 +146,20 @@ def level0():
             #wow brave choice etc etc
             #write a awkard hug
             print("you're going into this empty handed")
-            hearts = 2
+            hearts += 1
         else:
             print("sorry try again, that wasnt one of the options?")
 
+def decison():
+    print("[boo!]")#actual jump scare noise
+    print('*DANGER*')
+    print('a zombie is approaching you')
+    print('What do you do? press a: Fight or  b: Run')
+        
 
 
 def start():
     global hearts
-    hearts = 1
     print("press a, b, c for each option choice")
     inp = input("press enter key to start game ")
     if inp == "":
@@ -170,6 +168,8 @@ def start():
         #print stuff here - mention food supply issues?
         print('--------------------------------------------')
         #meet zombie n decide
+        decison()
+        dc = input
         #i just. put all the functions in for ease of testing
         level0()
         if hearts == 0:
