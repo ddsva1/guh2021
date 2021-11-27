@@ -12,7 +12,7 @@ hearts = 1
 def level1():
     print("Date 1")
     print("*The First Date*") #make this text big
-    print("awwwww") #make this text small 
+    print("awwwww") #make this text small
 
 def gameovergood():
     print("You became a zombie!")
@@ -57,14 +57,22 @@ def start():
         print("d: nothing")
         print('choose an object:')
         weapon = ''
+
         weapon = input("what do you do? ")
         if weapon == "a":
             print("you chose bat!")
+            #print stuff here
         elif weapon == "b":
             print("you chose a gun")
+            #print stuff here
+            hearts = 0
         elif weapon == "c":
             print("you chose a crossbow")
+            #something something shoot foot was mentioned?
         elif weapon == "d":
+            #wow brave choice etc etc
+            print("you're going into this empty handed")
+            hearts = 2
         else:
             print("blah")
 
