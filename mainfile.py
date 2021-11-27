@@ -120,6 +120,7 @@ def gameoverbad4():
     gameover()
 
 def level0():
+    global hearts
     print("[boo!]")#actual jump scare noise
     print('*DANGER*')
     print('a zombie is approaching you')
