@@ -13,6 +13,7 @@ def level2():
     print("Date 1")
     print("*The First Date*") #make this text big
     print("awwwww") #make this text small
+    print("Choose a movie")
 
 
 def gameovergood():
