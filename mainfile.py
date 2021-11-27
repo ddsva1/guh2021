@@ -27,27 +27,29 @@ def gameovergood():
 def gameoverbad1():
     #play song - really really american one - name??
     print("wow you killed a zombie... his name was Tom")
-    print("*child runs in the scene")
+    print("He was a father! Child Zombie runs in the scene")
+    print("Daddy! Daddy wake up!")
     print(":O")
-    print('youre a murderer!')
+    print("why did you kill my dad mister?!")
+    print('You are a murderer!')
     #zombie kid bit
     print("game over")
     gameover()
 
 def gameoverbad2():
     print("you've been cancelled on twitter")
-    print("A large karen voice")
-    print("game over")
+    print("A large karen voice looms for the rest of your life")
+    print("Game Over")
     gameover()
 
 def gameoverbad3():
-    print("Cow just killed you. Well he was holding a gun")
-    print("game over")
+    print("Cow just killed you. Made you into a human burger")
+    print("Game Over")
     gameover()
 
 def gameoverbad4():
     #No heart is left
-    print("print you are eaten alive!!")
+    print("You are eaten alive!!")
     print("At least you are tasty")
     gameover()
 
@@ -143,9 +145,9 @@ def level0():
             print("You shot yourself in the foot")
             print("zombie smells your blood, looks hungry")
         elif weapon == "d":
-            #wow brave choice etc etc
-            #write a awkard hug
             print("you're going into this empty handed")
+            print("The zombie looks at you awkwardy and gives you a hug")
+            print("Wow... there's a connection")
             hearts += 1
         else:
             print("sorry try again, that wasnt one of the options?")
@@ -161,8 +163,8 @@ def decison():
         if dec1 =="a":
             level0()
         elif dec1 =="c":
+            print("you were too slow, because you smoked too much before the fallout")
             print("Game Over")
-            #write dialog that you are too slow and 
             gameover()
         else:
             dec1=""
