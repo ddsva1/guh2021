@@ -79,8 +79,8 @@ def gameoverbad2():
     gameover()
 
 def gameoverbad3():
-    #death by angry cow
-    print()
+    print("Cow just killed you. Well he was holding a gun")
+    print("game over")
     gameover()
 
 
@@ -111,30 +111,6 @@ def level1():
         gameoverbad2()
     else:
         print('get error checking - note')
-
-def start():
-    global hearts
-    hearts = 1
-    print("press a, b, c for each option choice")
-    inp = input("press enter key to start game ")
-    if inp == "":
-        print(":D")
-        print("the background!")
-        #print stuff here - mention food supply issues?
-        print('--------------------------------------------')
-        #meet zombie n decide
-        print("[boo!]")#actual jump scare noise
-        print('*DANGER*')
-        print('a zombie is approaching you')
-        print('a: bat')
-        print("b: gun")
-        print("c: crossbow")
-        print("d: bare! hands!")
-        print('choose an object:')
-        weapon = ''
-    print("Cow just killed you. Well he was holding a gun")
-    print("game over")
-    gameover()
 
 def gameoverbad4():
     #No heart is left
