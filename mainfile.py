@@ -152,6 +152,7 @@ def level0():
             #wow brave choice etc etc
             #write a awkard hug
             print("you're going into this empty handed")
+            hearts = 2
         else:
             print("sorry try again, that wasnt one of the options?")
 
@@ -170,9 +171,12 @@ def start():
         #meet zombie n decide
         #i just. put all the functions in for ease of testing
         level0()
-        level1()
-        level2()
-        level3()
+        if hearts == 0:
+            gameoverbad1()
+        else:
+            level1()
+            level2()
+            level3()
     else:
         print('wow')
         print("coward")
