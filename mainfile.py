@@ -20,12 +20,11 @@ def gameovergood():
     print("You and Tom got a house on a fixed inerest mortgage rate!")
     print("You've had a child! how is that possible!?")
     print("Both you and tom have lived happily ever after")
-    print("the end")
-    print("you became a zombie!")
     print("while the world decayed into ruins,")
-    print("are still going strong")
+    print("you two are still going strong")
     print("well done!")
     print("humanity lost but you two sure won!")
+    print("the end")
 
 def gameoverbad1():
     #play song - really really american one - name??
