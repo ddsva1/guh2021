@@ -37,6 +37,7 @@ def level2():
 
 
 
+
 def gameovergood():
     print("You became a zombie!")
     print("You and Tom the zombie got married")
@@ -62,13 +63,32 @@ def gameoverbad2():
     print("you've been cancelled on twitter")
     print("A large karen voice")
 
+def gameoverbad3():
+    #death by angry cow
+    print()
 
-"""
-def checkhearts(x):
-    if hearts == 0 and x == 1:
-        print('the zombie doesnt like you and eats you.')
-        print("game over")
-"""
+
+def level2():
+    print("Date 1")
+    print("*The First Date*") #make this text big
+    print("awwwww") #make this text small
+    print("choose a movie")
+    print("a: twilight")
+    print("b: world war z")
+    print("c: garfield 3 the movie")
+    c = input("movie choice: ")
+    if c == "a":
+        print("zombie and you had a great movie date")
+        hearts = hearts + 1
+    elif c == "b":
+        print("zombie thinks you are immature")
+        hearts = hearts
+    elif c == "c":
+        print("zombie thinks youre insensitive (yikes)")
+        gameoverbad2()
+    else:
+        print('get error checking - note')
+
 def start():
     global hearts
     hearts = 1
