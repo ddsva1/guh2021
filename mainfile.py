@@ -8,6 +8,7 @@ hearts = 1
 #pygame?? or tkinter if need be
 #
 #
+#WHY U SO STUPID
 
 def level1():
     print("level1")
