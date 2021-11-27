@@ -116,7 +116,7 @@ def gameoverbad4():
     print("print you are eaten alive!!")
     print("At least you are tasty")
     gameover()
-    
+
 def level0():
     print("[boo!]")#actual jump scare noise
     print('*DANGER*')
@@ -164,6 +164,7 @@ def start():
         #print stuff here - mention food supply issues?
         print('--------------------------------------------')
         #meet zombie n decide
+        #i just. put all the functions in for ease of testing
         level0()
         level1()
         level2()
