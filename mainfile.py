@@ -7,7 +7,7 @@ hearts = 1
 #imported libraries:
 #pygame?? or tkinter if need be
 #
-#
+# Why u so clever?
 
 def level1():
     print("level1")
