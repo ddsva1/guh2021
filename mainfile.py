@@ -21,13 +21,18 @@ def gameovergood():
     print("You've had a child! how is that possible!?")
     print("Both you and tom have lived happily ever after")
     print("the end")
+    print("you became a zombie!")
+    print("while the world decayed into ruins,")
+    print("are still going strong")
+    print("well done!")
+    print("humanity lost but you two sure won!")
 
 def gameoverbad1():
     #play song - really really american one - name??
     print("wow you killed a zombie... his name was Tom")
     print("*child runs in the scene")
     print(":O")
-    print('youre a murderer')
+    print('youre a murderer!')
     #zombie kid bit
     print("game over")
 
