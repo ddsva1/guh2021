@@ -111,7 +111,7 @@ def level1():
     elif c == "b":
         print("zombie thinks youre insensitive (yikes)")
         print("Oh No! zombie took out their phone and tweeted!")
-        print("Zmobie storms out of theatre")
+        print("Zombie storms out of theatre")
         print("Oh no your boss is on the phone! You've been cancelled!")
         gameoverbad2()
     else:
@@ -153,6 +153,7 @@ def level0():
             print("sorry try again, that wasnt one of the options?")
 
 def decison():
+    global hearts
     time.sleep(0.5)
     print("[boo!]")#actual jump scare noise
     time.sleep(0.5)
@@ -180,6 +181,7 @@ def decison():
             print("Zombie was waiting for love too..")
             time.sleep(0.5)
             time.sleep(0.5)
+            hearts += 1
             print("DATING SIM <3")
             level1()
 
@@ -191,7 +193,7 @@ def start():
     print("Press a, b, c for each option choice")
     inp = input("Press enter key to start game ")
     if inp == "":
-        print("The year.... is 2077 in Machester....")
+        print("The year.... is 2077 in Manchester....")
         time.sleep(0.5)
         print("Global Warming has irrevarsably altered the enviroment....")
         time.sleep(0.5)
@@ -210,15 +212,16 @@ def start():
         print("")
         #meet zombie n decide
         decison()
-        dc = input
         #i just. put all the functions in for ease of testing
 
         if hearts == 0:
             gameoverbad1()
-        else:
+        elif hearts == 2:
             level1()
             level2()
             level3()
+        else:
+
     else:
         print('wow')
         time.sleep(0.5)
