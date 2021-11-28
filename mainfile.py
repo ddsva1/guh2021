@@ -16,7 +16,7 @@ def gameover():
 def gameovergood():
     print("You became a zombie!")
     print("You and Tom the zombie got married")
-    print("You and Tom got a house on a fixed inerest mortgage rate!")
+    print("You and Tom got a house on a fixed interest mortgage rate!")
     print("You've had a child! how is that possible!?")
     print("Both you and tom have lived happily ever after")
     print("while the world decayed into ruins,")
