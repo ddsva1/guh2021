@@ -5,6 +5,7 @@ hearts = 1
 #gameover = false
 
 #imported libraries:
+import time
 #pygame?? or tkinter if need be
 #
 # Why u so clever?
@@ -32,7 +33,6 @@ def gameoverbad1():
     print(":O")
     print("why did you kill my dad mister?!")
     print('You are a murderer!')
-    #zombie kid bit
     print("game over")
     gameover()
 
@@ -153,37 +153,61 @@ def level0():
             print("sorry try again, that wasnt one of the options?")
 
 def decison():
+    time.sleep(0.5)
     print("[boo!]")#actual jump scare noise
+    time.sleep(0.5)
     print('*DANGER*')
+    time.sleep(0.5)
     print('a zombie is approaching you')
-    print('What do you do? press a: Fight or  b: Wait or c: Run')
+    time.sleep(0.5)
+    print('What do you do?')
+    print("a: Fight")
+    print("b: Wait")
+    print("c: Run")
+    time.sleep(0.5)
     dec1=""
     while(dec1!="a" or dec1!="b" or dec1!="c"):
         dec1 = input("What's your decision?:")
         if dec1 =="a":
             level0()
         elif dec1 =="c":
+            time.sleep(0.5)
             print("you were too slow, because you smoked too much before the fallout")
+            time.sleep(0.5)
             print("Game Over")
             gameover()
         elif dec1 =="b":
+            print("Zombie was waiting for love too..")
+            time.sleep(0.5)
+            time.sleep(0.5)
             print("DATING SIM <3")
             level1()
 
-
-
-
-
-
 def start():
     global hearts
-    print("press a, b, c for each option choice")
-    inp = input("press enter key to start game ")
+    print("")
+    print("")
+    print("Manchester 2077: Zombie Survival Fallout Game")
+    print("Press a, b, c for each option choice")
+    inp = input("Press enter key to start game ")
     if inp == "":
-        print(":D")
-        print("the background!")
-        #print stuff here - mention food supply issues?
+        print("The year.... is 2077 in Machester....")
+        time.sleep(0.5)
+        print("Global Warming has irrevarsably altered the enviroment....")
+        time.sleep(0.5)
+        print("as we know it...")
+        time.sleep(0.5)
+        print("Leading to food supplies issues, nuclear war, general HAVOC")
+        time.sleep(0.5)
+        print("A new variant of Covid has apeared...")
+        time.sleep(0.5)
+        print("The Omicron variant produced new zombies")
+        time.sleep(0.5)
+        print("The objective is to SURVIVE")
+        time.sleep(0.5)
         print('--------------------------------------------')
+        time.sleep(0.5)
+        print("")
         #meet zombie n decide
         decison()
         dc = input
@@ -197,6 +221,7 @@ def start():
             level3()
     else:
         print('wow')
+        time.sleep(0.5)
         print("coward")
         exit()
 
