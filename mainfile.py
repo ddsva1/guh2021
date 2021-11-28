@@ -102,6 +102,7 @@ def level3():
         gameoverbad4()
     else:
         gameovergood()
+    return hearts
 
 def level2():
     global hearts
@@ -139,6 +140,7 @@ def level2():
     else:
         print("You did nothing")
         time.sleep(0.5)
+    return hearts
 
 def level1():
 
@@ -186,9 +188,11 @@ def level1():
         time.sleep(0.5)
         print("Oh no your boss is on the phone! You've been cancelled!")
         time.sleep(0.5)
+        hearts -= 1
         gameoverbad2()
     else:
         print('get error checking - note')
+    return hearts
 
 def level0():
     global hearts
@@ -262,6 +266,7 @@ def decison():
     time.sleep(0.5)
     dec1=""
     while(dec1!="a" or dec1!="b" or dec1!="c"):
+        print("#")
         dec1 = input("What's your decision?:")
         if dec1 =="a":
             level0()
@@ -273,12 +278,16 @@ def decison():
             print("Game Over")
             gameover()
         elif dec1 =="b":
+            print("##")
             print("Zombie was waiting for love too..")
             time.sleep(0.5)
             time.sleep(0.5)
             hearts += 1
             print("DATING SIM <3")
             level1()
+            break
+        else:
+            dec1=""
 
 def start():
     global hearts
@@ -290,7 +299,7 @@ def start():
     if inp == "":
         print("The year.... is 2077 in Manchester....")
         time.sleep(0.5)
-        print("Global Warming has irrevarsably altered the enviroment....")
+        print("Global Warming has irreversably altered the enviroment....")
         time.sleep(0.5)
         print("as we know it...")
         time.sleep(0.5)
@@ -311,7 +320,11 @@ def start():
 
         if hearts == 0:
             gameoverbad1()
-        elif hearts == 2:
+        elif hearts ==1:
+            print("###")
+            level2()
+            level3()
+        elif hearts>=2:
             level1()
             level2()
             level3()
