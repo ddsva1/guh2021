@@ -315,10 +315,10 @@ def start():
         decison()
         if hearts == 0:
             gameoverbad1()
-        elif hearts ==1:
+        elif hearts == 3:
             level2()
             level3()
-        elif hearts>=2:
+        elif hearts==2:
             level1()
             level2()
             level3()
