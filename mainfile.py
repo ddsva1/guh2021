@@ -158,7 +158,7 @@ def decison():
     print('a zombie is approaching you')
     print('What do you do? press a: Fight or  b: Wait or c: Run')
     dec1=""
-    while(dec1=="b" or dec1==""):
+    while(dec1!="a" or dec1!="b" or dec1!="c"):
         dec1 = input("What's your decision?:")
         if dec1 =="a":
             level0()
@@ -166,9 +166,10 @@ def decison():
             print("you were too slow, because you smoked too much before the fallout")
             print("Game Over")
             gameover()
-        else:
-            dec1=""
-    
+        elif dec1 =="b":
+            print("DATING SIM <3")
+            level1()
+
 
 
 
