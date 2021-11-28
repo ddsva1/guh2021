@@ -16,6 +16,8 @@ def gameover():
         exit()
 
 def gameovergood():
+    print("")
+    print("")
     print("You became a zombie!")
     time.sleep(0.5)
     print("You and Tom the zombie got married")
@@ -40,6 +42,8 @@ def gameovergood():
 
 def gameoverbad1():
     #play song - really really american one - name??
+    print("")
+    print("")
     print("wow you killed a zombie... his name was Tom")
     time.sleep(0.5)
     print("He was a father! Child Zombie runs in the scene")
@@ -56,6 +60,8 @@ def gameoverbad1():
     gameover()
 
 def gameoverbad2():
+    print("")
+    print("")
     print("you've been cancelled on twitter")
     time.sleep(0.5)
     print("A large karen voice looms for the rest of your life")
@@ -64,6 +70,8 @@ def gameoverbad2():
     gameover()
 
 def gameoverbad3():
+    print("")
+    print("")
     time.sleep(0.5)
     print("Cow just killed you. Made you into a human burger")
     time.sleep(0.5)
@@ -71,12 +79,16 @@ def gameoverbad3():
     gameover()
 
 def gameoverbad4():
+    print("")
+    print("")
     print("You were eaten alive!!")
     time.sleep(0.5)
     print("At least you were tasty?")
     gameover()
 
 def level3():
+    print("")
+    print("")
     print("(You say to yourself) Oh maybe love cures zombie?")
     time.sleep(0.5)
     print("You get closer to the zombie")
@@ -93,6 +105,8 @@ def level3():
 
 def level2():
     global hearts
+    print("")
+    print("")
     print("Level 2")
     time.sleep(0.5)
     print("*The Second Date*")
@@ -129,6 +143,8 @@ def level2():
 def level1():
 
     global hearts
+    print("")
+    print("")
     print("Level 1")
     time.sleep(0.5)
     print("*The First Date*") #make this text big
@@ -176,6 +192,8 @@ def level1():
 
 def level0():
     global hearts
+    print("")
+    print("")
     print("There are weapons on the ground! quick choose!")
     time.sleep(0.5)
     print('a: bat')
@@ -228,6 +246,8 @@ def level0():
 
 def decison():
     global hearts
+    print("")
+    print("")
     time.sleep(0.5)
     print("[boo!]")#actual jump scare noise
     time.sleep(0.5)
