@@ -266,7 +266,6 @@ def decison():
     time.sleep(0.5)
     dec1=""
     while(dec1!="a" or dec1!="b" or dec1!="c"):
-        print("#")
         dec1 = input("What's your decision?:")
         if dec1 =="a":
             level0()
@@ -278,7 +277,6 @@ def decison():
             print("Game Over")
             gameover()
         elif dec1 =="b":
-            print("##")
             print("Zombie was waiting for love too..")
             time.sleep(0.5)
             time.sleep(0.5)
@@ -314,14 +312,10 @@ def start():
         print('--------------------------------------------')
         time.sleep(0.5)
         print("")
-        #meet zombie n decide
         decison()
-        #i just. put all the functions in for ease of testing
-
         if hearts == 0:
             gameoverbad1()
         elif hearts ==1:
-            print("###")
             level2()
             level3()
         elif hearts>=2:
